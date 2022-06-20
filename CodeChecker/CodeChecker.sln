@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChecker", "CodeChecker\CodeChecker.csproj", "{3E384DC3-5174-4265-B4AB-9B127A690661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCheckerTest", "CodeCheckerTest\CodeCheckerTest.csproj", "{CB4019B8-1629-4FD8-85DC-5A44A8D1B626}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E384DC3-5174-4265-B4AB-9B127A690661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E384DC3-5174-4265-B4AB-9B127A690661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E384DC3-5174-4265-B4AB-9B127A690661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E384DC3-5174-4265-B4AB-9B127A690661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB4019B8-1629-4FD8-85DC-5A44A8D1B626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB4019B8-1629-4FD8-85DC-5A44A8D1B626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB4019B8-1629-4FD8-85DC-5A44A8D1B626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB4019B8-1629-4FD8-85DC-5A44A8D1B626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B5C1B9C-C5D7-431E-8A8B-F3C0D27C2A1A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\bin\Debug\CodeCheckerTest.dll
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\bin\Debug\CodeCheckerTest.pdb
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\bin\Debug\CodeChecker.exe
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\bin\Debug\CodeChecker.pdb
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\bin\Debug\CodeChecker.exe.config
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\obj\Debug\CodeCheckerTest.csprojResolveAssemblyReference.cache
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\obj\Debug\CodeCheckerTest.csproj.CoreCompileInputs.cache
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\obj\Debug\CodeCheckerTest.csproj.CopyComplete
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\obj\Debug\CodeCheckerTest.dll
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeCheckerTest\obj\Debug\CodeCheckerTest.pdb

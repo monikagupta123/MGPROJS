@@ -1,0 +1,121 @@
+<div class='card'>
+    <div class='card-header'>
+      {{pageTitle}}
+    </div>
+    <form #form="ngForm">
+    <div class='card-body'>
+      <div class='row'>
+        <div class='col-md-8'>
+          <div class='row'>
+            <div class="form-group">
+            <div class='col-md-4'><label for="firstName" >First Name:</label></div>
+            <div class='col-md-8'><input type='text' id="firstName" name="firstName" required  class="form-control" ngModel #firstNameField="ngModel" placeholder="required"/>
+              <div [hidden]="firstNameField.valid || firstNameField.untouched"
+                class ="alert alert-danger">
+                Please enter First Name
+            </div>
+          </div>
+          </div>
+          </div>
+          <div class='row'>
+            <div class="form-group">
+            <div class='col-md-4'><label for="lastName" >Last Name:</label></div>
+            <div class='col-md-8'><input type='text' id="lastName" name="lastName" required  class="form-control" ngModel placeholder="required" #lastNameField="ngModel"/>
+              <div [hidden]="lastNameField.valid || lastNameField.untouched"
+                class ="alert alert-danger">
+                Please enter Last Name
+            </div>
+            </div>
+          </div>
+          </div>
+          <div class='row'>
+            <div class="form-group">
+            <div class='col-md-4'><label for="npiNumber" >NPI Number:</label></div>
+            <div class='col-md-8'><input type='text'id="npiNumber" name="npiNumber" required  class="form-control" ngModel placeholder="required" #npiNumberField="ngModel"/>
+              <div [hidden]="npiNumberField.valid || npiNumberField.untouched"
+              class ="alert alert-danger">
+              Please enter NPI Number
+          </div>
+            </div>
+          </div>
+          </div>
+          <div class='row'>
+            <div class="form-group">
+            <div class='col-md-4'><label for="businessAddress" >Business Address:</label></div>
+            <div class='col-md-8'><textarea id="businessAddress" name="businessAddress" class="form-control" rows="3" ngModel></textarea></div>
+          </div>
+          </div>
+          <div class='row'>
+            <div class="form-group">
+            <div class='col-md-4'><label for="telephoneNumber" >Telephone Number:</label></div>
+            <div class='col-md-8'><input type='text' id="telephoneNumber" name="telephoneNumber"   class="form-control" ngModel/></div>
+          </div>
+          </div>
+          <div class='row'>
+            <div class="form-group">
+            <div class='col-md-4'><label for="emailAddress" >Email Address:</label></div>
+            <div class='col-md-8'><input type='email'id="emailAddress" name="emailAddress" required  class="form-control" ngModel placeholder="required" #emailAddressField="ngModel"/>
+              <div [hidden]="emailAddressField.valid || emailAddressField.untouched"
+              class ="alert alert-danger">
+              Please enter Email Address
+          </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  
+    <div class='card-footer'>
+      <button class='btn btn-primary'
+      style='width:80px' (click)="resetForm(form)">
+<i class='fa fa-eraser'></i> Reset
+</button>
+      <button class='btn btn-primary'
+              style='width:80px' [disabled]="form.invalid" (click) = "onClickSubmit(form)" >
+        <i class='fa fa-save'></i> Submit
+      </button>
+    </div>
+  </form>
+  </div>
+
+  {{form.controls.firstNameField.errors}}
+
+  <div class='card' *ngIf='providers.length'>
+    <div class='card-header'>
+      {{pageTitle}}
+    </div>
+    <div class='card-body'>
+      <div class='table-responsive'>
+        <table class='table'
+               *ngIf='providers.length'>
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>NPI Number</th>
+              <th>Business Address</th>
+              <th>Telephone Number</th>
+              <th>Email Address</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let provider of providers'>
+             
+              <td>{{ provider.firstName }}</td>
+              <td>{{ provider.lastName }}</td>
+              <td>{{ provider.npiNumber}}</td>
+              <td>{{ provider.businessAddress}}</td>
+              <td>{{ provider.telephoneNumber }}</td>
+              <td>{{ provider.emailAddress}}</td>
+              <button id="remove" (click)="deleteRow(provider.providerId)" >Delete</button>
+              
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+</div>
+

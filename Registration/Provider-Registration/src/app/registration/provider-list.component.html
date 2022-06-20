@@ -1,0 +1,35 @@
+<div class='card'>
+    <div class='card-header'>
+      {{pageTitle}}
+    </div>
+    <div class='card-body'>
+      <div class='table-responsive'>
+        <table class='table'
+               *ngIf='providers.length'>
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>NPI Number</th>
+              <th>Business Address</th>
+              <th>Telephone Number</th>
+              <th>Email Address</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let provider of providers'>
+             
+              <td>{{ provider.firstName }}</td>
+              <td>{{ provider.lastName }}</td>
+              <td>{{ provider.npiNumber}}</td>
+              <td>{{ provider.businessAddress}}</td>
+              <td>{{ provider.telephoneNumber }}</td>
+              <td>{{ provider.emailAddress}}</td>
+              
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+</div>
+  

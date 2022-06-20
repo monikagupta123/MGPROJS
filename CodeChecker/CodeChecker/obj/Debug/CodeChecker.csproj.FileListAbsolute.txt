@@ -1,0 +1,7 @@
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeChecker\obj\Debug\CodeChecker.csprojResolveAssemblyReference.cache
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeChecker\obj\Debug\CodeChecker.csproj.CoreCompileInputs.cache
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeChecker\bin\Debug\CodeChecker.exe.config
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeChecker\bin\Debug\CodeChecker.exe
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeChecker\bin\Debug\CodeChecker.pdb
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeChecker\obj\Debug\CodeChecker.exe
+C:\Monika\MGDocs\AvailityProj\CodeChecker\CodeChecker\obj\Debug\CodeChecker.pdb
